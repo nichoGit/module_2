@@ -1,0 +1,46 @@
+EXERCISE 3
+
+$x($x('/html/body/div[1]')
+
+[div#a-page]
+
+$x('/html/body/div[last()]')
+
+[]
+$x("//*[@role='navigation']")
+
+[]
+
+$x("//*[contains(@attribute,'nav')]")
+
+[]
+
+$x("//*[@type='submit' and @class='nav-input']")
+[input.nav-input]
+
+EXERCISE 4
+
+a
+$x("//html//a/ancestor::div")
+
+(255)
+
+b
+$x("//body/attribute::class")
+
+[class]
+
+c
+$x("//head/descendant::script")
+
+(16) [script, script, script, script, script, script, script, script, script, script, script, script, script, script, script, script]
+
+d
+$x("//body/div[1]/following-sibling::div")
+
+[div#a-popover-root]
+
+e
+$x("//body/div[2]/preceding-sibling::div")
+
+[div#a-page]

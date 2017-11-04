@@ -1,0 +1,50 @@
+Example 1
+
+document.querySelector("#global-viewport")
+
+<div id=?"global-viewport" data-behavior=?"global_nav_condensed global_nav_full" class>?…?</div>?
+
+
+document.querySelector(".link-text")
+
+<span class=?"link-text">?Fútbol?</span>?
+
+
+document.querySelector("*")
+
+<html class=?"js no-touch history cssanimations video localstorage desktop-ua  scrollbars-17 desktop" style>?<head>?…?</head>?<body class=?"index desktop page-context-top prod  scoreboard-fixed logged-out" data-pagetype=?"index" data-sport data-customstylesheet=?"null" data-lang=?"es" data-edition=?"es-mx" data-app>?…?</body>?</html>?
+
+
+Example 2
+
+document.querySelector("div>a")
+
+<a class=?"view-sponsor mobile" target=?"_blank" href=?"http:?/?/?online.caliente.mx/?promoRedirect?member=espndigital&campaign=DEFAULT&channel=DEFAULT&zone=54623980&lp=0">?…?</a>?
+
+document.querySelector("li a")
+
+<a href=?"#" data-id=?"0" data-league=?"topEvents" data-sport data-draft=?"false">?Lo Mejor?</a>?
+
+document.querySelector("li+li")
+
+<li class=?"league">?…?</li>?
+
+document.querySelector("div~article")
+
+<article class=?"contentItem" data-id=?"3658632" data-now-id=?"3658632" data-tier-type=?"null" data-personalized=?"false" data-pinned=?"false" data-pos=?"9">?…?</article>?
+
+Exercise 3
+
+
+document.querySelector("article[id]")
+
+<article class=?"module sideLogin" id=?"sideLogin-left-rail" style=?"display:? block;?">?…?</article>?
+
+
+document.querySelector("article[class='sub-module quicklinks']")
+
+<article class=?"sub-module quicklinks">?…?</article>?
+
+document.querySelector("[class~='user-account-management']")
+
+<header id=?"global-header" class=?"espn-es-mx user-account-management has-search">?…?</header>?
